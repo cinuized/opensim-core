@@ -4,7 +4,7 @@ option(BUILD_API_EXAMPLES
 
 if(BUILD_API_EXAMPLES)
 
-  install(DIRECTORY ExampleMain
+  install(DIRECTORY ExampleStart
         ExampleHopperDevice
         ExampleLuxoMuscle
         ControllerExample
@@ -27,7 +27,7 @@ elseif()
 
     add_subdirectory(ControllerExample)
     add_subdirectory(ExampleLuxoMuscle)
-    add_subdirectory(ExampleMain)
+    add_subdirectory(ExampleStart)
     add_subdirectory(OptimizationExample_Arm26)
     add_subdirectory(CustomActuatorExample)
     add_subdirectory(MuscleExample)
